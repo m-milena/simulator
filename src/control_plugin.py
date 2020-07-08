@@ -123,8 +123,8 @@ global previous_speed
 
 previous_speed   = 0.0
 min_speed        = 0.0
-max_speed        = 80.0  # 100.0
-speed_delta      = 0.315 # 1.25
+max_speed        = 30.0  # 100.0
+speed_delta      = 0.115 # 1.25
 previous_speed   = 0.0
 
 # command callback

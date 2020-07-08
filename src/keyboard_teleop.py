@@ -13,9 +13,10 @@ keyBindings = {
   'd':(1,-1),
   'a':(1,1),
   's':(-1,0),
+  'x':(0,0),
 }
 
-speed_limit = 0.50
+speed_limit = 0.2
 angle_limit = 0.25
 
 def getKey():
