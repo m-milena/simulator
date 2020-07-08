@@ -380,20 +380,20 @@
   <link name="$(arg robot_name)_camera_link">
     <inertial>
       <mass value="1e-5" />
-      <origin xyz="-2.5 1.5 1.75" rpy="0 .57 -0.57"/>
+      <origin xyz="-0.25 0 0.025" rpy="0 0 0"/>
       <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6" />
     </inertial>
   </link>
   <link name="$(arg robot_name)_right_link">
     <inertial>
       <mass value="1e-5" />
-      <origin xyz="-2.5 1.5 1.75" rpy="0 .57 -0.57"/>
+      <origin xyz="0 0 0.025" rpy="0 0 0"/>
       <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6" />
     </inertial>
   </link>
 
   <joint name="$(arg robot_name)_left_joint" type="fixed">
-    <origin xyz="-2.5 1.5 1.75" rpy="0 .57 -0.57"/>
+    <origin xyz="0 0 0.035" rpy="0 0 0"/>
     <parent link="$(arg robot_name)_link"/>
     <child link="$(arg robot_name)_camera_link"/>
     <axis xyz="0 0 1" />
